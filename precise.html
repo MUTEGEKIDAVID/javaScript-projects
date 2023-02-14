@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+ function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+function tocelcius(farenheit){
+
+return ((5/9)*farenheit-10);
+}
+function new(){
+document.getElementById("david").innerHTML= tocelcius(77);}
+
+</script>
+<title>PRECISE</title>
+PRECISE DIAGNOSTICS AND MEDICAL SUPPLIES
+</head>
+<STYLE>
+body{
+background-color:red;
+font-size:14;
+}
+head{
+font-color:red;
+}
+
+</STYLE>
+
+<body>
+<p><a href="muele.mak.ac.ug">click to go to muele</a></p>
+<ol type="1" start="5"  >
+<li id="1">system analysis</li>
+<li>software development principles</li>
+<li>internet programming</li>
+<li>com skills</li>
+<li> comp literacy</li>
+</ol>
+<form>  
+<fieldset>
+<legend>user information</legend>
+    <label for="firstname">First Name:   </label><br>  
+              <input type="text" id="firstname" name="firstname"/> <br/>  
+   <label for="lastname">Last Name:   </label> <br> 
+              <input type="text" id="lastname" name="lastname"/> <br/> 
+
+<label for="password">Enter password:</label><br>
+<input type="password" id="password" name="password"><br>
+
+
+<label for="email">Enter email:</label><br>
+<input type="email" id="email" name="email"> <br>
+
+<!--radio button control-->
+<label for="gender">Gender: </label>  <br>
+              <input type="radio" id="gender" name="gender" value="male"/>Male  
+              <input type="radio" id="gender" name="gender" value="female"/>Female <br/>
+
+<!--check boxes-->
+ <input type="checkbox" id="cricket" name="cricket" value="cricket"/>  
+                 <label for="cricket">Cricket</label> <br>  
+              <input type="checkbox" id="football" name="football" value="football"/>  
+                 <label for="football">Football</label> <br>  
+              <input type="checkbox" id="hockey" name="hockey" value="hockey"/>  
+                 <label for="hockey">Hockey</label><br>
+<input type="submit" value="submit"> <br>
+</fieldset>
+ </form> 
+<p id="demo">this is a paragraph</p>
+<button type="button" onclick="myFunction()">click me</button>
+<button type="button" onclick="document.write(5+7)">try me</button>
+<button type="button" onclick="windows.print()">tap</button>
+
+<p id="david">the temperature is 77(click on the button below to view the value of the temperatute in celcius)</p>
+<button type="button" onclick="new()">change</button>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

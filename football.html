@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            football show
+        </title>
+        
+    <src  rel="stylesheet" href="javacode/src/style.css"></src>
+    </head>
+    <style>
+body{
+background-color: aqua;
+text-align: center;
+
+}
+table,td,tr{
+    border: 1 px solid balck;
+}
+    </style>
+    <body>
+<h1> welcome to the regular show</h1>
+<p> this adavid mutegeki reporting live from uganda from makerere university</p>
+
+<a href=" mutegeki.david555@gamil.com" >click here to connect to my website for further information</a>
+
+<p>over the centuries football has evolved for the best and it has attracted many youth to take part which keeps them occupied hence keeping away from harmful activities that may affect their own health such
+    as drug use.
+</p>
+<table>
+<tr>
+    <td id="demo"> coach name</td>
+    <td> certification</td>
+</tr>
+<tr>
+    <td> tom sali</td>
+    <td>a level certificate </td><br>
+    <script>
+
+       document.write("welcome to programming") 
+    </script>
+    <td id ="date">today date</td>
+</tr>
+
+
+
+</table>
+    </body>
+    <script>
+    // let element=document.getElementById("");
+    // element.innerHTML="This is new"
+
+    // const x = document.getElementById("main");
+    // const y = x.getElementsByTagName("p"); we find all elements with  id main and then find all p elements within
+    
+    document.getElementById("date").innerHTML="todays date is"+ Date();
+
+    const me = {
+    firstName:"John",
+    lastName: "Doe",
+    display: function () {
+      let x = document.getElementById("demo");
+      x.innerHTML = this.firstName + " " + this.lastName;
+    }
+  }
+  let display = me.display.bind(me);
+  setTimeout(display, 3000);  
+  
+ // setTimeout(me.display, 3000); if this is used, when the function is called back, this will disappear and we will have undefined
+    </script>
+
+
+
+</html>
+

@@ -1,0 +1,20 @@
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Name: <input type="text" name="fname">
+    status:<input type="text" name="status " required>
+    <input type="submit" id="new"value="Submit">
+    </form>
+<button id="button" value ="color" onclick="clicked()">color change</button>
+    <script>
+        function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+        function clicked(){
+            let element= s=document.getElementById("new");
+            element.style.color="red";
+        }
+    </script>
