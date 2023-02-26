@@ -1,4 +1,5 @@
 
+document.getElementById("run").style.color="green";
 let cards=[];//array-an ordered list of items
 let sum=0;
 let hasBlackJack=false;
