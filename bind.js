@@ -22,7 +22,7 @@
   console.log(fullname())
 
 
-  /**variables created without let,const, or car keyword are always global whether the
+  /**variables created without let,const, or var keyword are always global whether the
    * are declared insidee a function
    * forxample: function myfunc(){
    *  b=4;

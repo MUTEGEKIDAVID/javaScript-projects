@@ -85,4 +85,12 @@ console.log(aged);
   console.log( Car.hello(miCar));
 
   //media queries are used for responsiveness: read more about responsiveness
+
+
+  /**
+   * ...............CLASS INHERITANCE.......
+   * to use class inheritance we use the extends keyword
+   * a class created with class inheritance inherits all the methods from the parent class
+   */
+  
   

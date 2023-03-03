@@ -36,6 +36,10 @@ const school ={
     }
 
 }
+//adding a method to an object
+school.sentence= function(){
+    return "this is a method addition to an object"
+}
 console.log(school.class.name)
 // any javascript object can be converted into an array using object.values(object name)
 
@@ -67,6 +71,21 @@ const persn = {
     this.age = age;
     this.eyeColor = eye;
   }
+  const myFather = new Person("John", "Doe", 50, "blue");
+  const myMother = new Person("Sally", "Rally", 48, "green");
+  
+//console.log(myFather.firstName)
 
+//javascript object prototype helps us add properties and methods to existing object contructors
+Person.prototype.nationality = "English";
+Person.prototype.name = function() {
+    return this.firstName + " " + this.lastName;
+  };
 
+ // console.log(myFather)
 
+  const group="maroon "
+
+  for(let x in group){
+    console.log(group[x])
+  }
